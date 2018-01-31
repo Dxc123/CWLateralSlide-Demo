@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C9277B3EDAC882E9411BF9469E116F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2081A3E191CDE5C961D5192ED74A5F45 /* Pods-CWLateralSlide侧滑使用Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 329F2AD6087EEA266C70D0879EA8382E /* Pods-CWLateralSlide侧滑使用Demo-dummy.m */; };
+		2782F0B7CA4A5B2ABB2668BDA63D2AF7 /* CWInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A172DB35DEB2D1A66904FAD5C7CD189 /* CWInteractiveTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		394C8ECDF974BC8DF9172540F97B7649 /* UIViewController+CWLateralSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA019A0060D51B9CB38822A5A1F23D1 /* UIViewController+CWLateralSlide.m */; };
+		71ED28FBC4A9FC471D1D1DED59FEE285 /* CWLateralSlideConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = ED5BB2AB53D94649751EE7A05C419804 /* CWLateralSlideConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		737739E1425E6827787C9F7A5F62CC89 /* CWInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F90CF2D2FF023A4F41056AB5E59E57C /* CWInteractiveTransition.m */; };
+		7C21C875BCE7F4F80B3A77BF79BBAFEA /* CWLateralSlide-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF6527341CBAF38F21C7C4E37AA8D9E /* CWLateralSlide-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F6D3F2181D511ED3852378967FD8923 /* CWDrawerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EB94798FFEEAFB5E23DEBEDE6E7914C7 /* CWDrawerTransition.m */; };
+		82EAE98383BC688B5113D73F3790E4B0 /* CWLateralSlide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F72667F233A3276529DDDDE2129EFF5 /* CWLateralSlide-dummy.m */; };
+		97D7C7EA21A24650E4963C6421EE4831 /* CWLateralSlideConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = C772576E1369C0DEE59A18E6034C56A5 /* CWLateralSlideConfiguration.m */; };
+		A1CAFDB887993BDDD5497C05B138E6BD /* Pods-CWLateralSlide侧滑使用Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E15244536C6358D9D246CCF66159CB45 /* Pods-CWLateralSlide侧滑使用Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9A395E90395CB662C7332B05DF15F11 /* UIViewController+CWLateralSlide.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE8A819BE8470CAD98B2A03BDBF1B62 /* UIViewController+CWLateralSlide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0844C04121D609EF3B9B9550A794E00 /* CWDrawerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 215995990760AA131BE34C8A1209071B /* CWDrawerTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1C9F36DA50CCC86AD7B52C8D722158A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E41E807B5C91404FC7930A24FE7C710A /* CWLateralSlideAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD39F28589678D2BF18FB5F28FBD8CC /* CWLateralSlideAnimator.m */; };
+		F4A8DC3243B07C5BBF2C28FCF11B2FA8 /* CWLateralSlideAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC528A8B6B016608C337CC1E5AA17BA /* CWLateralSlideAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60BFDA09683402477AFD3AA5256F5F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB9EE00EDE10B20B0985E8CE9BC1F2C;
+			remoteInfo = CWLateralSlide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F14A8306478542730F7A938DE4FD47E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F90CF2D2FF023A4F41056AB5E59E57C /* CWInteractiveTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWInteractiveTransition.m; path = CWLateralSlide/CWInteractiveTransition.m; sourceTree = "<group>"; };
+		1FA8038769E12E1AE34637F54E462F0A /* Pods-CWLateralSlide侧滑使用Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CWLateralSlide侧滑使用Demo.release.xcconfig"; sourceTree = "<group>"; };
+		215995990760AA131BE34C8A1209071B /* CWDrawerTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWDrawerTransition.h; path = CWLateralSlide/CWDrawerTransition.h; sourceTree = "<group>"; };
+		329F2AD6087EEA266C70D0879EA8382E /* Pods-CWLateralSlide侧滑使用Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CWLateralSlide侧滑使用Demo-dummy.m"; sourceTree = "<group>"; };
+		3F72667F233A3276529DDDDE2129EFF5 /* CWLateralSlide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CWLateralSlide-dummy.m"; sourceTree = "<group>"; };
+		4B91719442F4C0D6BC37502E2136878D /* CWLateralSlide.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CWLateralSlide.modulemap; sourceTree = "<group>"; };
+		4CC528A8B6B016608C337CC1E5AA17BA /* CWLateralSlideAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWLateralSlideAnimator.h; path = CWLateralSlide/CWLateralSlideAnimator.h; sourceTree = "<group>"; };
+		50A436074D4AFF15545D80A15A8FEB5F /* Pods_CWLateralSlide____Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CWLateralSlide____Demo.framework; path = "Pods-CWLateralSlide侧滑使用Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA019A0060D51B9CB38822A5A1F23D1 /* UIViewController+CWLateralSlide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CWLateralSlide.m"; path = "CWLateralSlide/UIViewController+CWLateralSlide.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7317DA7F0BCA699D6A7459FC5EB279DC /* CWLateralSlide.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CWLateralSlide.xcconfig; sourceTree = "<group>"; };
+		7BE8A819BE8470CAD98B2A03BDBF1B62 /* UIViewController+CWLateralSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CWLateralSlide.h"; path = "CWLateralSlide/UIViewController+CWLateralSlide.h"; sourceTree = "<group>"; };
+		7FE38A081554177E9DE8A43A8EBEE7F8 /* Pods-CWLateralSlide侧滑使用Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CWLateralSlide侧滑使用Demo-resources.sh"; sourceTree = "<group>"; };
+		852121F63496016C17947EFB549ECA24 /* Pods-CWLateralSlide侧滑使用Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CWLateralSlide侧滑使用Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A172DB35DEB2D1A66904FAD5C7CD189 /* CWInteractiveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWInteractiveTransition.h; path = CWLateralSlide/CWInteractiveTransition.h; sourceTree = "<group>"; };
+		A9702ACC0226AF1526D4C62FD659E5AE /* CWLateralSlide-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWLateralSlide-prefix.pch"; sourceTree = "<group>"; };
+		ADBB7801FE24EC8E1A97D17C21F9F436 /* CWLateralSlide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CWLateralSlide.framework; path = CWLateralSlide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40163A4433D173A0E0256693580C466 /* Pods-CWLateralSlide侧滑使用Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CWLateralSlide侧滑使用Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C772576E1369C0DEE59A18E6034C56A5 /* CWLateralSlideConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWLateralSlideConfiguration.m; path = CWLateralSlide/CWLateralSlideConfiguration.m; sourceTree = "<group>"; };
+		CD1CF47395F112E44D7866462D325075 /* Pods-CWLateralSlide侧滑使用Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CWLateralSlide侧滑使用Demo-frameworks.sh"; sourceTree = "<group>"; };
+		CDD39F28589678D2BF18FB5F28FBD8CC /* CWLateralSlideAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWLateralSlideAnimator.m; path = CWLateralSlide/CWLateralSlideAnimator.m; sourceTree = "<group>"; };
+		CF2F0FFC3C415CA70A38F514BB154130 /* Pods-CWLateralSlide侧滑使用Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CWLateralSlide侧滑使用Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		E15244536C6358D9D246CCF66159CB45 /* Pods-CWLateralSlide侧滑使用Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CWLateralSlide侧滑使用Demo-umbrella.h"; sourceTree = "<group>"; };
+		E154089A7C0D4226042077264E427E07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB94798FFEEAFB5E23DEBEDE6E7914C7 /* CWDrawerTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWDrawerTransition.m; path = CWLateralSlide/CWDrawerTransition.m; sourceTree = "<group>"; };
+		ED5BB2AB53D94649751EE7A05C419804 /* CWLateralSlideConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWLateralSlideConfiguration.h; path = CWLateralSlide/CWLateralSlideConfiguration.h; sourceTree = "<group>"; };
+		EEF6527341CBAF38F21C7C4E37AA8D9E /* CWLateralSlide-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWLateralSlide-umbrella.h"; sourceTree = "<group>"; };
+		FE635195B0B46A78513D21CB851C334C /* Pods-CWLateralSlide侧滑使用Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CWLateralSlide侧滑使用Demo.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15939265B15DF29BBE37FBA0E68D5DD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C9F36DA50CCC86AD7B52C8D722158A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42BBD6F1C6A3DE41136178EC3AB00FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C9277B3EDAC882E9411BF9469E116F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04848EF1F423B19F2ED78E6F5864DAF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B91719442F4C0D6BC37502E2136878D /* CWLateralSlide.modulemap */,
+				7317DA7F0BCA699D6A7459FC5EB279DC /* CWLateralSlide.xcconfig */,
+				3F72667F233A3276529DDDDE2129EFF5 /* CWLateralSlide-dummy.m */,
+				A9702ACC0226AF1526D4C62FD659E5AE /* CWLateralSlide-prefix.pch */,
+				EEF6527341CBAF38F21C7C4E37AA8D9E /* CWLateralSlide-umbrella.h */,
+				0F14A8306478542730F7A938DE4FD47E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CWLateralSlide";
+			sourceTree = "<group>";
+		};
+		4E78AFC6702E15F3005481022B4388DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBB7801FE24EC8E1A97D17C21F9F436 /* CWLateralSlide.framework */,
+				50A436074D4AFF15545D80A15A8FEB5F /* Pods_CWLateralSlide____Demo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				922CBF5EBE0D4BF667C23CAA6F34713F /* Pods */,
+				4E78AFC6702E15F3005481022B4388DA /* Products */,
+				8B431D0A95FFB8E2D48637158BB21829 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B431D0A95FFB8E2D48637158BB21829 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D645956864E53E474461825BE55E40F5 /* Pods-CWLateralSlide侧滑使用Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		922CBF5EBE0D4BF667C23CAA6F34713F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5BAE557B001EF8721C0CEE6381AFC8C /* CWLateralSlide */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D645956864E53E474461825BE55E40F5 /* Pods-CWLateralSlide侧滑使用Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E154089A7C0D4226042077264E427E07 /* Info.plist */,
+				FE635195B0B46A78513D21CB851C334C /* Pods-CWLateralSlide侧滑使用Demo.modulemap */,
+				B40163A4433D173A0E0256693580C466 /* Pods-CWLateralSlide侧滑使用Demo-acknowledgements.markdown */,
+				CF2F0FFC3C415CA70A38F514BB154130 /* Pods-CWLateralSlide侧滑使用Demo-acknowledgements.plist */,
+				329F2AD6087EEA266C70D0879EA8382E /* Pods-CWLateralSlide侧滑使用Demo-dummy.m */,
+				CD1CF47395F112E44D7866462D325075 /* Pods-CWLateralSlide侧滑使用Demo-frameworks.sh */,
+				7FE38A081554177E9DE8A43A8EBEE7F8 /* Pods-CWLateralSlide侧滑使用Demo-resources.sh */,
+				E15244536C6358D9D246CCF66159CB45 /* Pods-CWLateralSlide侧滑使用Demo-umbrella.h */,
+				852121F63496016C17947EFB549ECA24 /* Pods-CWLateralSlide侧滑使用Demo.debug.xcconfig */,
+				1FA8038769E12E1AE34637F54E462F0A /* Pods-CWLateralSlide侧滑使用Demo.release.xcconfig */,
+			);
+			name = "Pods-CWLateralSlide侧滑使用Demo";
+			path = "Target Support Files/Pods-CWLateralSlide侧滑使用Demo";
+			sourceTree = "<group>";
+		};
+		F5BAE557B001EF8721C0CEE6381AFC8C /* CWLateralSlide */ = {
+			isa = PBXGroup;
+			children = (
+				215995990760AA131BE34C8A1209071B /* CWDrawerTransition.h */,
+				EB94798FFEEAFB5E23DEBEDE6E7914C7 /* CWDrawerTransition.m */,
+				9A172DB35DEB2D1A66904FAD5C7CD189 /* CWInteractiveTransition.h */,
+				1F90CF2D2FF023A4F41056AB5E59E57C /* CWInteractiveTransition.m */,
+				4CC528A8B6B016608C337CC1E5AA17BA /* CWLateralSlideAnimator.h */,
+				CDD39F28589678D2BF18FB5F28FBD8CC /* CWLateralSlideAnimator.m */,
+				ED5BB2AB53D94649751EE7A05C419804 /* CWLateralSlideConfiguration.h */,
+				C772576E1369C0DEE59A18E6034C56A5 /* CWLateralSlideConfiguration.m */,
+				7BE8A819BE8470CAD98B2A03BDBF1B62 /* UIViewController+CWLateralSlide.h */,
+				5BA019A0060D51B9CB38822A5A1F23D1 /* UIViewController+CWLateralSlide.m */,
+				04848EF1F423B19F2ED78E6F5864DAF0 /* Support Files */,
+			);
+			name = CWLateralSlide;
+			path = CWLateralSlide;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4EA326B1D561584114A5CA2148D17887 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0844C04121D609EF3B9B9550A794E00 /* CWDrawerTransition.h in Headers */,
+				2782F0B7CA4A5B2ABB2668BDA63D2AF7 /* CWInteractiveTransition.h in Headers */,
+				7C21C875BCE7F4F80B3A77BF79BBAFEA /* CWLateralSlide-umbrella.h in Headers */,
+				F4A8DC3243B07C5BBF2C28FCF11B2FA8 /* CWLateralSlideAnimator.h in Headers */,
+				71ED28FBC4A9FC471D1D1DED59FEE285 /* CWLateralSlideConfiguration.h in Headers */,
+				C9A395E90395CB662C7332B05DF15F11 /* UIViewController+CWLateralSlide.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9E97FCB4AA5D0D46E966410072AB6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CAFDB887993BDDD5497C05B138E6BD /* Pods-CWLateralSlide侧滑使用Demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		44B3995A14F828E662BFA273C340248C /* Pods-CWLateralSlide侧滑使用Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9C9B8B68A865AC23C25BC8F05AA1FC9 /* Build configuration list for PBXNativeTarget "Pods-CWLateralSlide侧滑使用Demo" */;
+			buildPhases = (
+				2B817620E89CF6A82EE655A62B4F34EB /* Sources */,
+				42BBD6F1C6A3DE41136178EC3AB00FB3 /* Frameworks */,
+				EA9E97FCB4AA5D0D46E966410072AB6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8240EB52E6E764C2F95A05D8E8C004D /* PBXTargetDependency */,
+			);
+			name = "Pods-CWLateralSlide侧滑使用Demo";
+			productName = "Pods-CWLateralSlide侧滑使用Demo";
+			productReference = 50A436074D4AFF15545D80A15A8FEB5F /* Pods_CWLateralSlide____Demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFB9EE00EDE10B20B0985E8CE9BC1F2C /* CWLateralSlide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C8B9D0AD25268E270C30AFBC032D9B /* Build configuration list for PBXNativeTarget "CWLateralSlide" */;
+			buildPhases = (
+				86E0D26640ECC3200B777C6075C14935 /* Sources */,
+				15939265B15DF29BBE37FBA0E68D5DD5 /* Frameworks */,
+				4EA326B1D561584114A5CA2148D17887 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CWLateralSlide;
+			productName = CWLateralSlide;
+			productReference = ADBB7801FE24EC8E1A97D17C21F9F436 /* CWLateralSlide.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4E78AFC6702E15F3005481022B4388DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB9EE00EDE10B20B0985E8CE9BC1F2C /* CWLateralSlide */,
+				44B3995A14F828E662BFA273C340248C /* Pods-CWLateralSlide侧滑使用Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B817620E89CF6A82EE655A62B4F34EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2081A3E191CDE5C961D5192ED74A5F45 /* Pods-CWLateralSlide侧滑使用Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86E0D26640ECC3200B777C6075C14935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6D3F2181D511ED3852378967FD8923 /* CWDrawerTransition.m in Sources */,
+				737739E1425E6827787C9F7A5F62CC89 /* CWInteractiveTransition.m in Sources */,
+				82EAE98383BC688B5113D73F3790E4B0 /* CWLateralSlide-dummy.m in Sources */,
+				E41E807B5C91404FC7930A24FE7C710A /* CWLateralSlideAnimator.m in Sources */,
+				97D7C7EA21A24650E4963C6421EE4831 /* CWLateralSlideConfiguration.m in Sources */,
+				394C8ECDF974BC8DF9172540F97B7649 /* UIViewController+CWLateralSlide.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8240EB52E6E764C2F95A05D8E8C004D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CWLateralSlide;
+			target = EFB9EE00EDE10B20B0985E8CE9BC1F2C /* CWLateralSlide */;
+			targetProxy = 60BFDA09683402477AFD3AA5256F5F3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C20D630772ABF249F7A18C8408F1655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7317DA7F0BCA699D6A7459FC5EB279DC /* CWLateralSlide.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CWLateralSlide/CWLateralSlide-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CWLateralSlide/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CWLateralSlide/CWLateralSlide.modulemap";
+				PRODUCT_NAME = CWLateralSlide;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2EBB301BE024786504BDAF543B969CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7317DA7F0BCA699D6A7459FC5EB279DC /* CWLateralSlide.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CWLateralSlide/CWLateralSlide-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CWLateralSlide/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CWLateralSlide/CWLateralSlide.modulemap";
+				PRODUCT_NAME = CWLateralSlide;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8178FD130EF40D3F28E423AA41D094A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852121F63496016C17947EFB549ECA24 /* Pods-CWLateralSlide侧滑使用Demo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CWLateralSlide侧滑使用Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CWLateralSlide侧滑使用Demo/Pods-CWLateralSlide侧滑使用Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CWLateralSlide____Demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DF288F4F5541A685C461E382689D58C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FA8038769E12E1AE34637F54E462F0A /* Pods-CWLateralSlide侧滑使用Demo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CWLateralSlide侧滑使用Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CWLateralSlide侧滑使用Demo/Pods-CWLateralSlide侧滑使用Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CWLateralSlide____Demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C8B9D0AD25268E270C30AFBC032D9B /* Build configuration list for PBXNativeTarget "CWLateralSlide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C20D630772ABF249F7A18C8408F1655 /* Debug */,
+				2EBB301BE024786504BDAF543B969CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9C9B8B68A865AC23C25BC8F05AA1FC9 /* Build configuration list for PBXNativeTarget "Pods-CWLateralSlide侧滑使用Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8178FD130EF40D3F28E423AA41D094A7 /* Debug */,
+				DF288F4F5541A685C461E382689D58C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

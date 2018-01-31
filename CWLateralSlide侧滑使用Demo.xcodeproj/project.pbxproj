@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EBF8DE88525FD37D97669C8 /* Pods_CWLateralSlide____Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D018506B69266D709CBBC512 /* Pods_CWLateralSlide____Demo.framework */; };
 		C0B767EB20215C8100267D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B767EA20215C8100267D83 /* AppDelegate.swift */; };
 		C0B767ED20215C8100267D83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B767EC20215C8100267D83 /* ViewController.swift */; };
 		C0B767F020215C8100267D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B767EE20215C8100267D83 /* Main.storyboard */; };
 		C0B767F220215C8100267D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B767F120215C8100267D83 /* Assets.xcassets */; };
 		C0B767F520215C8100267D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B767F320215C8100267D83 /* LaunchScreen.storyboard */; };
+		C0B767FF20215F1300267D83 /* XXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B767FE20215F1300267D83 /* XXViewController.m */; };
+		C0B7680120215FB800267D83 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B7680020215FB800267D83 /* TabBarViewController.swift */; };
+		C0B768032021605400267D83 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B768022021605400267D83 /* FirstViewController.swift */; };
+		C0B768052021606400267D83 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B768042021606400267D83 /* SecondViewController.swift */; };
+		C0B76807202161DE00267D83 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B76806202161DE00267D83 /* LeftViewController.swift */; };
+		C0B76809202161F300267D83 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B76808202161F300267D83 /* RightViewController.swift */; };
+		C0B7680B2021912C00267D83 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B7680A2021912C00267D83 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BEF406B0597C5E3EA57E828 /* Pods-CWLateralSlide侧滑使用Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWLateralSlide侧滑使用Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CWLateralSlide侧滑使用Demo/Pods-CWLateralSlide侧滑使用Demo.release.xcconfig"; sourceTree = "<group>"; };
+		4189A0B9F94F0EEFD973AA8A /* Pods-CWLateralSlide侧滑使用Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CWLateralSlide侧滑使用Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CWLateralSlide侧滑使用Demo/Pods-CWLateralSlide侧滑使用Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		C0B767E720215C8100267D83 /* CWLateralSlide侧滑使用Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CWLateralSlide侧滑使用Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B767EA20215C8100267D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0B767EC20215C8100267D83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,16 @@
 		C0B767F120215C8100267D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0B767F420215C8100267D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0B767F620215C8100267D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B767FC20215F1300267D83 /* CWLateralSlide侧滑使用Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CWLateralSlide侧滑使用Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0B767FD20215F1300267D83 /* XXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXViewController.h; sourceTree = "<group>"; };
+		C0B767FE20215F1300267D83 /* XXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXViewController.m; sourceTree = "<group>"; };
+		C0B7680020215FB800267D83 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C0B768022021605400267D83 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C0B768042021606400267D83 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C0B76806202161DE00267D83 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		C0B76808202161F300267D83 /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		C0B7680A2021912C00267D83 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		D018506B69266D709CBBC512 /* Pods_CWLateralSlide____Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_CWLateralSlide____Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EBF8DE88525FD37D97669C8 /* Pods_CWLateralSlide____Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63C3C3B36042B0BD9E051E49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D018506B69266D709CBBC512 /* Pods_CWLateralSlide____Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C0B767DE20215C8100267D83 = {
 			isa = PBXGroup;
 			children = (
 				C0B767E920215C8100267D83 /* CWLateralSlide侧滑使用Demo */,
 				C0B767E820215C8100267D83 /* Products */,
+				D5335783E7D9DCBAE224BC40 /* Pods */,
+				63C3C3B36042B0BD9E051E49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +86,31 @@
 			isa = PBXGroup;
 			children = (
 				C0B767EA20215C8100267D83 /* AppDelegate.swift */,
+				C0B7680020215FB800267D83 /* TabBarViewController.swift */,
+				C0B768022021605400267D83 /* FirstViewController.swift */,
+				C0B768042021606400267D83 /* SecondViewController.swift */,
+				C0B76806202161DE00267D83 /* LeftViewController.swift */,
+				C0B76808202161F300267D83 /* RightViewController.swift */,
+				C0B7680A2021912C00267D83 /* NextViewController.swift */,
 				C0B767EC20215C8100267D83 /* ViewController.swift */,
+				C0B767FD20215F1300267D83 /* XXViewController.h */,
+				C0B767FE20215F1300267D83 /* XXViewController.m */,
 				C0B767EE20215C8100267D83 /* Main.storyboard */,
 				C0B767F120215C8100267D83 /* Assets.xcassets */,
 				C0B767F320215C8100267D83 /* LaunchScreen.storyboard */,
 				C0B767F620215C8100267D83 /* Info.plist */,
+				C0B767FC20215F1300267D83 /* CWLateralSlide侧滑使用Demo-Bridging-Header.h */,
 			);
 			path = "CWLateralSlide侧滑使用Demo";
+			sourceTree = "<group>";
+		};
+		D5335783E7D9DCBAE224BC40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4189A0B9F94F0EEFD973AA8A /* Pods-CWLateralSlide侧滑使用Demo.debug.xcconfig */,
+				3BEF406B0597C5E3EA57E828 /* Pods-CWLateralSlide侧滑使用Demo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0B767F920215C8100267D83 /* Build configuration list for PBXNativeTarget "CWLateralSlide侧滑使用Demo" */;
 			buildPhases = (
+				383760DC7077D08C859F3779 /* [CP] Check Pods Manifest.lock */,
 				C0B767E320215C8100267D83 /* Sources */,
 				C0B767E420215C8100267D83 /* Frameworks */,
 				C0B767E520215C8100267D83 /* Resources */,
+				26039FF34476684FBB7F28B0 /* [CP] Embed Pods Frameworks */,
+				6BB08A37FCBFA56D356B23F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +148,7 @@
 				TargetAttributes = {
 					C0B767E620215C8100267D83 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,12 +184,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26039FF34476684FBB7F28B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CWLateralSlide侧滑使用Demo/Pods-CWLateralSlide侧滑使用Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CWLateralSlide/CWLateralSlide.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CWLateralSlide.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CWLateralSlide侧滑使用Demo/Pods-CWLateralSlide侧滑使用Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		383760DC7077D08C859F3779 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CWLateralSlide侧滑使用Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BB08A37FCBFA56D356B23F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CWLateralSlide侧滑使用Demo/Pods-CWLateralSlide侧滑使用Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0B767E320215C8100267D83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B768052021606400267D83 /* SecondViewController.swift in Sources */,
+				C0B76809202161F300267D83 /* RightViewController.swift in Sources */,
+				C0B768032021605400267D83 /* FirstViewController.swift in Sources */,
+				C0B7680120215FB800267D83 /* TabBarViewController.swift in Sources */,
 				C0B767ED20215C8100267D83 /* ViewController.swift in Sources */,
+				C0B767FF20215F1300267D83 /* XXViewController.m in Sources */,
+				C0B76807202161DE00267D83 /* LeftViewController.swift in Sources */,
+				C0B7680B2021912C00267D83 /* NextViewController.swift in Sources */,
 				C0B767EB20215C8100267D83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,13 +386,17 @@
 		};
 		C0B767FA20215C8100267D83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4189A0B9F94F0EEFD973AA8A /* Pods-CWLateralSlide侧滑使用Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "CWLateralSlide侧滑使用Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaoyun.CWLateralSlide----Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CWLateralSlide侧滑使用Demo/CWLateralSlide侧滑使用Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +404,16 @@
 		};
 		C0B767FB20215C8100267D83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BEF406B0597C5E3EA57E828 /* Pods-CWLateralSlide侧滑使用Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "CWLateralSlide侧滑使用Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaoyun.CWLateralSlide----Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CWLateralSlide侧滑使用Demo/CWLateralSlide侧滑使用Demo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
